@@ -3,6 +3,7 @@ import { links } from "./Constants";
 import { FaShoppingCart } from "react-icons/fa";
 import { HiUserAdd } from "react-icons/hi";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 const navbar = () => {
   return (
@@ -14,21 +15,21 @@ const navbar = () => {
             {links.map((link) => {
               return (
                 <li key={link.id}>
-                  <a href={link.to}>{link.text}</a>
+                  <Link to={link.to}>{link.text}</Link>
                 </li>
               );
             })}
           </ul>
         </nav>
         <div className="cart-wrapper">
-          <a href="#">
+          <Link to="/cart">
             <span className="cart-container">Cart</span>
             <FaShoppingCart />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/" href="#">
             <span className="login-container">Login</span>
             <HiUserAdd />
-          </a>
+          </Link>
         </div>
       </div>
     </header>

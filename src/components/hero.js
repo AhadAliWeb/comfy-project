@@ -1,5 +1,6 @@
 import bcg1 from "../assets/hero-bcg.jpeg";
 import bcg2 from "../assets/hero-bcg-2.jpeg";
+import { Link } from "react-router-dom";
 
 const hero = () => {
   return (
@@ -15,9 +16,9 @@ const hero = () => {
             consectetur hic! Molestiae quod ex ipsa dicta aliquam qui voluptatum
             veniam repellendus blanditiis esse. Nihil, quibusdam
           </p>
-          <a href="#" className="btn">
+          <Link to="/products" className="btn">
             Shop Now
-          </a>
+          </Link>
         </div>
         <div className="hero-images">
           <img src={bcg1} alt="" className="hero-img-1" />

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const featured = () => {
   return (
     <section className="featured">
@@ -32,16 +34,16 @@ const featured = () => {
               src="https://www.course-api.com/images/store/product-11.jpeg"
               alt=""
             />
-            <div className="featured-text">
+            <div className="product-text">
               <p>Modern Bookshelf</p>
-              <p className="featured-product-price">$319.99</p>
+              <p className="product-price">$319.99</p>
             </div>
           </div>
         </div>
         <div className="all-products-div">
-          <a href="#" className="all-product-btn btn">
+          <Link to="/products" className="all-product-btn btn">
             All Products
-          </a>
+          </Link>
         </div>
       </div>
     </section>

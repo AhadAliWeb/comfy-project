@@ -1,22 +1,27 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import Featured from "./components/featured";
-import Cards from "./cards";
-import Newsletter from "./newsletter";
-import Footer from "./components/footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import ProductDetails from "./pages/ProductDetails";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Error from "./pages/Error";
+import SharedLayout from "./pages/SharedLayout";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Featured />
-      <Cards />
-      <Newsletter />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/products/:productId" element={<ProductDetails />} />
+          <Route path="/cart" element={<Cart />} />
+        </Route>
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

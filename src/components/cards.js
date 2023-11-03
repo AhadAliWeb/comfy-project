@@ -1,7 +1,6 @@
-import { cardData } from "./components/Constants";
+import { cardData } from "./Constants";
 
 const cards = () => {
-  console.log(cardData);
   return (
     <section className="cards">
       <div className="container">
@@ -18,7 +17,7 @@ const cards = () => {
         <div className="card">
           {cardData.map((card) => {
             return (
-              <div className="individual-card">
+              <div className="individual-card" key={card.id}>
                 <span className="card-icon">{card.icon}</span>
                 <h3>{card.title}</h3>
                 <p>{card.text}</p>

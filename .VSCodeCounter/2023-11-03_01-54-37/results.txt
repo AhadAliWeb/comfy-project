@@ -1,0 +1,66 @@
+Date : 2023-11-03 01:54:37
+Directory : d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth
+Total : 30 files,  19602 codes, 40 comments, 239 blanks, all 19881 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          3 |     18,050 |          0 |          3 |     18,053 |
+| JavaScript |         21 |        827 |          8 |         64 |        899 |
+| CSS        |          2 |        649 |          9 |        137 |        795 |
+| Markdown   |          1 |         38 |          0 |         33 |         71 |
+| HTML       |          1 |         20 |         23 |          1 |         44 |
+| XML        |          2 |         18 |          0 |          1 |         19 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                              |         30 |     19,602 |         40 |        239 |     19,881 |
+| . (Files)                                                                                                                                      |          3 |     18,063 |          0 |         35 |     18,098 |
+| public                                                                                                                                         |          2 |         45 |         23 |          2 |         70 |
+| src                                                                                                                                            |         25 |      1,494 |         17 |        202 |      1,713 |
+| src (Files)                                                                                                                                    |          9 |        736 |         16 |        149 |        901 |
+| src\assets                                                                                                                                     |          1 |         17 |          0 |          1 |         18 |
+| src\components                                                                                                                                 |          8 |        307 |          0 |         20 |        327 |
+| src\pages                                                                                                                                      |          7 |        434 |          1 |         32 |        467 |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                       | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\README.md                       | Markdown   |         38 |          0 |         33 |         71 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\package-lock.json               | JSON       |     17,983 |          0 |          1 |     17,984 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\package.json                    | JSON       |         42 |          0 |          1 |         43 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\public\index.html               | HTML       |         20 |         23 |          1 |         44 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\public\manifest.json            | JSON       |         25 |          0 |          1 |         26 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\App.css                     | CSS        |        632 |          9 |        133 |        774 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\App.js                      | JavaScript |         24 |          0 |          3 |         27 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\App.test.js                 | JavaScript |          7 |          0 |          2 |          9 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\assets\logo.svg             | XML        |         17 |          0 |          1 |         18 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\Constants.js     | JavaScript |        104 |          0 |          5 |        109 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\SingleProduct.js | JavaScript |         31 |          0 |          2 |         33 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\cards.js         | JavaScript |         31 |          0 |          2 |         33 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\featured.js      | JavaScript |         49 |          0 |          4 |         53 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\footer.js        | JavaScript |         10 |          0 |          1 |         11 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\hero.js          | JavaScript |         30 |          0 |          2 |         32 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\navbar.js        | JavaScript |         37 |          0 |          2 |         39 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\components\pageHeader.js    | JavaScript |         15 |          0 |          2 |         17 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\index.css                   | CSS        |         17 |          0 |          4 |         21 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\index.js                    | JavaScript |         13 |          3 |          3 |         19 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\logo.svg                    | XML        |          1 |          0 |          0 |          1 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\newsletter.js               | JavaScript |         29 |          0 |          1 |         30 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\pages\About.js              | JavaScript |         31 |          0 |          2 |         33 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\pages\Context.js            | JavaScript |         24 |          0 |          7 |         31 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\pages\Error.js              | JavaScript |         13 |          0 |          2 |         15 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\pages\Home.js               | JavaScript |         15 |          0 |          2 |         17 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\pages\ProductDetails.js     | JavaScript |        149 |          0 |         11 |        160 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\pages\Products.js           | JavaScript |        189 |          1 |          6 |        196 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\pages\SharedLayout.js       | JavaScript |         13 |          0 |          2 |         15 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\reportWebVitals.js          | JavaScript |         12 |          0 |          2 |         14 |
+| d:\John Smilga Udemy\React 18 Tutorial and Projects Course 2023\react-projects\Comfy Sloth Project\comfy-sloth\src\setupTests.js               | JavaScript |          1 |          4 |          1 |          6 |
+| Total                                                                                                                                          |            |     19,602 |         40 |        239 |     19,881 |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

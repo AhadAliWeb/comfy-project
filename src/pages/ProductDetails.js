@@ -4,7 +4,7 @@ import img2 from "../assets/extra-product-2.jpeg";
 import img3 from "../assets/extra-product-3.jpeg";
 import img4 from "../assets/extra-product-4.jpeg";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { FaChessKing, FaRegStarHalfStroke } from "react-icons/fa6";
+import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { BiPlus } from "react-icons/bi";
 import { BiMinus } from "react-icons/bi";
 import PageHeader from "../components/pageHeader";

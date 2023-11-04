@@ -37,7 +37,7 @@ export const cardData = [
     id: 3,
     icon: <MdOutlineHistoryEdu />,
     title: "History",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+    text: "Lorem ipsum, dolor sit amete consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
   },
 ];
 

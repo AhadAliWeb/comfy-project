@@ -1,6 +1,5 @@
 import axios from "axios";
 import { createContext, useContext, useEffect, useRef, useState } from "react";
-import { useAuth0 } from "@auth0/auth0-react";
 
 const AppContext = createContext();
 const api = "https://course-api.com/react-store-products";

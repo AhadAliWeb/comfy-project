@@ -887,7 +887,9 @@ footer span {
 }
 
 .link-container a,
-.link-container .btn {
+.link-container .btn,
+.checkout,
+.login {
   text-decoration: none;
   border: 0;
   padding: 0.75em 1.5em;

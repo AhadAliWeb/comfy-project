@@ -4,17 +4,18 @@ import { BiMinus } from "react-icons/bi";
 import { MdDelete } from "react-icons/md";
 import PageHeader from "../components/pageHeader";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Cart = () => {
   const items = JSON.parse(localStorage.getItem("cart"));
   const [cart, setCart] = useState(items);
 
+  const { user, loginWithRedirect } = useAuth0();
+
   const totalAmount = items.reduce(
     (acc, curr) => acc + (curr.price / 100) * curr.amount,
     0
   );
-
-  console.log(totalAmount);
 
   const increaseQuantity = (productId, colorId) => {
     const updatedCart = cart.map((item) => {
@@ -135,6 +136,21 @@ const Cart = () => {
                 Order Total: <span>${totalAmount + 69.69}</span>
               </p>
             </div>
+          </div>
+          <div className="total-container ">
+            {user ? (
+              <Link to="/checkout" className="checkout">
+                Continue to Checkout
+              </Link>
+            ) : (
+              <Link
+                to="/checkout"
+                className="checkout"
+                onClick={loginWithRedirect}
+              >
+                Login Your Account
+              </Link>
+            )}
           </div>
         </div>
       ) : (

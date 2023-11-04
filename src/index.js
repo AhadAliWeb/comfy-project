@@ -4,12 +4,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import AppContext from "./pages/Context";
+import UserContext from "./pages/UserContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <AppContext>
-    <App />
-  </AppContext>
+  <UserContext>
+    <AppContext>
+      <App />
+    </AppContext>
+  </UserContext>
 );
 
 // If you want to start measuring performance in your app, pass a function

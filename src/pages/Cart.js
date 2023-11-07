@@ -12,7 +12,7 @@ const Cart = () => {
 
   const { user, loginWithRedirect } = useAuth0();
 
-  const totalAmount = items.reduce(
+  const totalAmount = items?.reduce(
     (acc, curr) => acc + (curr.price / 100) * curr.amount,
     0
   );
@@ -52,7 +52,7 @@ const Cart = () => {
   return (
     <section className="cart">
       <PageHeader title="Cart" />
-      {cart.length ? (
+      {items?.length ? (
         <div className="container">
           <div className="text">
             <p>Item</p>
